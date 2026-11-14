@@ -1,0 +1,6 @@
+# Bundle patch layer for dsh-turn-cost: the host half is a plain Cordis plugin;
+# the `dsh.client` declaration in package.json makes the web app load
+# ./lib/client.js as the browser half.
+- insert:
+    - id: dsh-turn-cost
+      name: dsh-turn-cost

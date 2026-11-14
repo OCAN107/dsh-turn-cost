@@ -1,0 +1,10 @@
+# runtime artifacts
+node_modules/
+loaded.log
+*.log
+
+# editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
